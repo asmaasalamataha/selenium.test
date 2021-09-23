@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-06T10:12:52 EET" name="Default suite" finished-at="2021-07-06T10:13:03 EET" duration-ms="10967">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.UserRegisterationPage@485966cc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-07-06T10:12:52 EET" name="Default test" finished-at="2021-07-06T10:13:03 EET" duration-ms="10967">
+      <class name="tests.UserRegisterationPage">
+        <test-method is-config="true" signature="startdriver(java.lang.String)[pri:0, instance:tests.UserRegisterationPage@485966cc]" started-at="2021-07-06T10:12:23 EET" name="startdriver" finished-at="2021-07-06T10:12:52 EET" duration-ms="29081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tests.UserRegisterationPage@485966cc]" started-at="2021-07-06T10:12:52 EET" name="setUpClass" finished-at="2021-07-06T10:12:52 EET" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="usercanregistersuccessfully()[pri:1, instance:tests.UserRegisterationPage@485966cc]" started-at="2021-07-06T10:12:52 EET" name="usercanregistersuccessfully" finished-at="2021-07-06T10:12:57 EET" duration-ms="4827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usercanregistersuccessfully -->
+        <test-method is-config="true" signature="Screenshootonfailuercase(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterationPage@485966cc]" started-at="2021-07-06T10:12:57 EET" name="Screenshootonfailuercase" finished-at="2021-07-06T10:12:57 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usercanregistersuccessfully status=SUCCESS method=UserRegisterationPage.usercanregistersuccessfully()[pri:1, instance:tests.UserRegisterationPage@485966cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshootonfailuercase -->
+        <test-method signature="Registerusercanlogout()[pri:0, instance:tests.UserRegisterationPage@485966cc]" started-at="2021-07-06T10:12:57 EET" name="Registerusercanlogout" finished-at="2021-07-06T10:12:59 EET" depends-on-methods="tests.UserRegisterationPage.usercanregistersuccessfully" duration-ms="1957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registerusercanlogout -->
+        <test-method is-config="true" signature="Screenshootonfailuercase(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterationPage@485966cc]" started-at="2021-07-06T10:12:59 EET" name="Screenshootonfailuercase" finished-at="2021-07-06T10:12:59 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Registerusercanlogout status=SUCCESS method=UserRegisterationPage.Registerusercanlogout()[pri:0, instance:tests.UserRegisterationPage@485966cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshootonfailuercase -->
+        <test-method signature="Registerusercanlogin()[pri:0, instance:tests.UserRegisterationPage@485966cc]" started-at="2021-07-06T10:12:59 EET" name="Registerusercanlogin" finished-at="2021-07-06T10:13:03 EET" depends-on-methods="tests.UserRegisterationPage.Registerusercanlogout" duration-ms="3583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registerusercanlogin -->
+        <test-method is-config="true" signature="Screenshootonfailuercase(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterationPage@485966cc]" started-at="2021-07-06T10:13:03 EET" name="Screenshootonfailuercase" finished-at="2021-07-06T10:13:03 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Registerusercanlogin status=SUCCESS method=UserRegisterationPage.Registerusercanlogin()[pri:0, instance:tests.UserRegisterationPage@485966cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshootonfailuercase -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.UserRegisterationPage@485966cc]" started-at="2021-07-06T10:13:03 EET" name="tearDownClass" finished-at="2021-07-06T10:13:03 EET" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopdriver()[pri:0, instance:tests.UserRegisterationPage@485966cc]" started-at="2021-07-06T10:13:03 EET" name="stopdriver" finished-at="2021-07-06T10:13:04 EET" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdriver -->
+      </class> <!-- tests.UserRegisterationPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
